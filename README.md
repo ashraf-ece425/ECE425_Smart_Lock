@@ -1,6 +1,6 @@
 # ECE 425 Final Project: Smart Lock
 December 14th, 2025 \
-ECE 425 - MicroProcessor Systems \
+ECE 425 - Microprocessor Systems \
 Professor Aaron Nanas \
 Author: Ashraf Abdelgawad
 

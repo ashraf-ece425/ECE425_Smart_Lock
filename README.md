@@ -8,7 +8,7 @@ Author: Ashraf Abdelgawad
 The Smart Lock project is inspired by technology that promotes safety and security. The goal for this project was to design a program that stores a 4-digit password and compares it to a user-entered password. If the passwords are a match, the Servo Motor will rotate from a 0૦ (locked) to a 90૦ (unlocked) position. Originally, the idea was to connect a 4x3 keypad (4 rows, 3 columns) to the Tiva-C Series TM4C123G Microcontroller, which would be used to directly enter the user password. Due to difficulties accessing a reliable keypad, this plan was modified to incorporate the PMOD ENC Rotary Encoder to perform this task using a slightly different approach. Some issues arose when trying to implement the Servo Motor as the Lock Arm for this device. So instead, this hardware component was set aside, and the project mainly focused on program implementation using the LCD and PMOD ENC units. The program takes the user-input password via PMOD ENC, compares it to the password stored in the program, and determines if the “lock” would unlock and displays this to the user through the LCD. More features can be added in the future to incorporate the Servo Motor and Keypad, once the program has been implemented successfully.
 
 ## Functional Block Diagram
-![Block Diagram](../ECE425_Smart_Lock/Images%20and%20Videos/Smart%20Lock%20Diagram.png)\
+![Block Diagram](../ECE425_Smart_Lock/Smart_Lock_Diagram.png)\
 *Figure 1: Functional Block Diagram of Smart Lock System*
 
 ## Background and Methodology

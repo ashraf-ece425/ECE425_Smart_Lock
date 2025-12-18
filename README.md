@@ -23,10 +23,10 @@ When the program is successfully implemented and downloaded onto the microcontro
 
 In a short video demonstration, we see that when the user enters the wrong password, a “LOCKED” message appears and the red light flashes. When the user enters the correct password, an “UNLOCKED” message is displayed and the green light flashes. A custom “right arrow” character is displayed at the beginning of the second row of the LCD to direct the user to exactly where their password will be displayed as they are entering it in. A few custom “heart” characters also display with the “UNLOCKED” message for aesthetic purposes. Below is a screenshot of the display message when the user enters the correct password, followed by a video demonstration of the testing and final results for this project:\
 \
-!["UNLOCKED" message with Green Light](../ECE425_Smart_Lock/Images%20and%20Videos/IMG_20251210_230151.jpg)
+!["UNLOCKED" message with Green Light](../ECE425_Smart_Lock/IMG_20251210_230151.jpg)\
 *Figure 2: “UNLOCKED” Message with Green Light Signal*
 
-[Video Demonstration Link](../ECE425_Smart_Lock/Images%20and%20Videos/VID_20251210_225802.mp4)
+[Video Demonstration Link](../ECE425_Smart_Lock/VID_20251210_225802.mp4)
 
 ## Software Used
 Keil μVision (Developed by ARM Keil) - Version 2025

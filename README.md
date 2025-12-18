@@ -8,7 +8,8 @@ Author: Ashraf Abdelgawad
 The Smart Lock project is inspired by technology that promotes safety and security. The goal for this project was to design a program that stores a 4-digit password and compares it to a user-entered password. If the passwords are a match, the Servo Motor will rotate from a 0૦ (locked) to a 90૦ (unlocked) position. Originally, the idea was to connect a 4x3 keypad (4 rows, 3 columns) to the Tiva-C Series TM4C123G Microcontroller, which would be used to directly enter the user password. Due to difficulties accessing a reliable keypad, this plan was modified to incorporate the PMOD ENC Rotary Encoder to perform this task using a slightly different approach. Some issues arose when trying to implement the Servo Motor as the Lock Arm for this device. So instead, this hardware component was set aside, and the project mainly focused on program implementation using the LCD and PMOD ENC units. The program takes the user-input password via PMOD ENC, compares it to the password stored in the program, and determines if the “lock” would unlock and displays this to the user through the LCD. More features can be added in the future to incorporate the Servo Motor and Keypad, once the program has been implemented successfully.
 
 ## Functional Block Diagram
-![Block Diagram](Smart_Lock_Diagram.png)
+![Block Diagram](Smart_Lock_Diagram.png) 
+
 *Figure 1: Functional Block Diagram of Smart Lock System*
 
 ## Background and Methodology
@@ -24,6 +25,7 @@ When the program is successfully implemented and downloaded onto the microcontro
 In a short video demonstration, we see that when the user enters the wrong password, a “LOCKED” message appears and the red light flashes. When the user enters the correct password, an “UNLOCKED” message is displayed and the green light flashes. A custom “right arrow” character is displayed at the beginning of the second row of the LCD to direct the user to exactly where their password will be displayed as they are entering it in. A few custom “heart” characters also display with the “UNLOCKED” message for aesthetic purposes. Below is a screenshot of the display message when the user enters the correct password, followed by a video demonstration of the testing and final results for this project:\
 \
 !["UNLOCKED" message with Green Light](IMG_20251210_230151.jpg)
+
 *Figure 2: "UNLOCKED" Message with Green Light Signal*
 
 [Video Demonstration Link](VID_20251210_225802.mp4)
